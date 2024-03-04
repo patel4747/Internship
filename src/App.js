@@ -13,8 +13,8 @@ const App = () => {
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center',  // Center items horizontally
-    textAlign: 'left',     // Align text to the left
+    alignItems: 'center',  
+    textAlign: 'left',     
     padding: '10px',
     color: 'white',
   };
@@ -26,24 +26,24 @@ const App = () => {
 
   const firstThreeWords = {
     color: 'white',
-    display: 'block', // Ensures each word is on a separate line
+    display: 'block', 
   };
 
   const contentStyle = {
-    width: '100%',  // Use 100% width for the content
-    maxWidth: '1111px',  // Set a maximum width for the content
-    textAlign: 'left',   // Align text to the left within the content
-    display: 'flex',  // Use flex display for flexible layout
-    justifyContent: 'space-between', // Space between content and images
-    alignItems: 'center', // Align items vertically
+    width: '100%',  
+    maxWidth: '1111px',  
+    textAlign: 'left',   
+    display: 'flex',  
+    justifyContent: 'space-between', 
+    alignItems: 'center', 
   };
 
   const paragraphStyle = {
-    marginRight: '30px', // Adjust margin as needed
+    marginRight: '30px', 
   };
 
   const buttonStyle = {
-    marginTop: '20px', // Add margin to separate the button from the text
+    marginTop: '20px', 
     backgroundColor: 'white',
     color: 'rgba(76, 53, 219, 1)',
     padding: '10px 20px',
@@ -56,8 +56,8 @@ const App = () => {
   };
 
   const imageStyle = {
-    maxWidth: '70%', // Adjust image width as needed
-    height: '500px',   // Maintain aspect ratio
+    maxWidth: '70%', 
+    height: '500px',   
   };
 
   return (
@@ -78,7 +78,6 @@ const App = () => {
           <img src="/image.png" alt="" style={imageStyle} />
         </div>
       </div>
-      {/* Other content of your page */}
     </div>
   );
 };

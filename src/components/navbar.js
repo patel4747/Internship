@@ -1,21 +1,21 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 const CustomNavbar = () => {
   const navbarStyle = {
-    backgroundColor: 'rgba(76, 53, 219, 1)', // #4C35DB with 100% opacity
+    backgroundColor: 'rgba(76, 53, 219, 1)', 
     marginRight: "100px"
   };
 
   const brandStyle = {
-    marginRight: '120px', // Adjust the margin as needed
+    marginRight: '120px', 
   };
   const NavStyle = {
-    marginRight: '20px', // Adjust the margin as needed
+    marginRight: '20px', 
   };
   const Style = {
-    marginRight: '30px', // Adjust the margin as needed
+    marginRight: '30px', 
   };
 
   const colours={
@@ -25,24 +25,24 @@ const CustomNavbar = () => {
   
   const contactBoxStyle = {
     backgroundColor: 'white',
-    padding: '10px 16px', // Adjust the padding as needed
-    borderRadius: '4px', // Optional: Add border-radius for rounded corners
+    padding: '10px 16px', 
+    borderRadius: '4px', 
     color: 'black',
     fontWeight: 'bold',
   
   };
   const contactBoxStyles = {
     backgroundColor: 'rgba(76, 53, 219, 1)',
-    padding: '12px 12px', // Adjust the padding as needed
-    borderRadius: '4px', // Optional: Add border-radius for rounded corners
+    padding: '12px 12px', 
+    borderRadius: '4px', 
     color: 'black',
     borderColor: 'white',
-    border: '2px solid white', // White border
+    border: '2px solid white', 
     fontWeight: 'bold',
   };
   
   const navLinkStyle = {
-    marginRight: '200px', // Adjust the margin between nav links as needed
+    marginRight: '200px', 
   };
 
   return (
